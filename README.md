@@ -18,3 +18,4 @@ Ardupilot based remote control model plane build.
 - FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2
 - ISDT Q8 BattGo 500W 20A High Power Battery Balance Charger
 - RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD
+- 2xURUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90
