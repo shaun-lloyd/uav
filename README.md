@@ -6,8 +6,6 @@ Ardupilot based remote control model plane build.
 - Benewake - TF02 PRO LiDAR Rangefinder (40m)
 - 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit
 - TBS Fusion Receiver Module For Goggles
-- TBS Lipo Safety Bag
-- TBS Smoke Stopper 
 - ORQA FPV.ONE OLED FPV GOGGLES
 - ORQA FPV.ONE BATTERY
 - TBS Fusion VAS Antenna Pack
