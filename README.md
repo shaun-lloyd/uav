@@ -1,7 +1,7 @@
 # Hardware
 
-| Component | Device | 
-|:---:|:---:|:---:|
+| Component | Device | Manufacturer | 
+| :---: | :---: | :---: |
 | Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="http://www.proficnc.com/all-products/191-pixhawk2-suite.html" target="_blank">`proficnc`</a> |
 - Benewake - TF02 PRO LiDAR Rangefinder (40m)
 - 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit
