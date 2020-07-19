@@ -4,7 +4,7 @@ My ardupilot uav.
 # Hardware
 
 | Component | Device | Manufacturer | Manual | 
-| :---: | :---: | :---: |
+| :---: | :---: | :---: | :---: |
 | Plane | ZOHD Nano Talon EVO 860mm Wingspan AIO V-Tail EPP FPV | <a href="http://www.sonicmodell.com" target="_blank">`sonicmodell`</a> | |
 | Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="http://www.proficnc.com/all-products/191-pixhawk2-suite.html" target="_blank">`proficnc`</a> | |
 | Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | |
