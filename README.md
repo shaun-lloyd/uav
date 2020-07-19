@@ -1,8 +1,10 @@
-# uav
-Ardupilot based remote control model plane build.
+# Hardware
 
+| Component | Name |
+| :---: | :---:|
+| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board |
+| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
 # Parts List
-- The Cube Orange – Standard Set with ADS-B Carrier Board
 - Benewake - TF02 PRO LiDAR Rangefinder (40m)
 - 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit
 - TBS Fusion Receiver Module For Goggles

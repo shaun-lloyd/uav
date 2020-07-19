@@ -1,0 +1,26 @@
+# QGroundControl
+
+User Guide  https://docs.qgroundcontrol.com/en/
+Developer Guide https://dev.qgroundcontrol.com/en/
+
+# Mavlink
+
+Guide   https://mavlink.io/en/
+Developer Guide https://mavsdk.mavlink.io/develop/en/index.html
+Common Message  https://mavlink.io/en/messages/common.html
+Python API Reference http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
+
+# Ardupilot
+
+Home    https://ardupilot.org/ardupilot/index.html
+Plane   https://ardupilot.org/plane/index.html
+
+# MavProxy
+
+Home    https://ardupilot.org/mavproxy/index.html
+Linux Dev Environment https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
+Cheatsheat  https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet
+Modules https://ardupilot.org/mavproxy/docs/modules/index.html
+
+
+
