@@ -50,22 +50,22 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 </details>
 
 <details>
-<summary>## QGroundControl</summary>
+<summary>QGroundControl</summary>
 
-User Guide  https://docs.qgroundcontrol.com/en/
-Developer Guide https://dev.qgroundcontrol.com/en/
+* User Guide  https://docs.qgroundcontrol.com/en/
+* Developer Guide https://dev.qgroundcontrol.com/en/
 
 </details>
 
-<details><summary>## Mavlink</summary>
+<details><summary>Mavlink</summary>
 
-Guide   https://mavlink.io/en/
-Developer Guide https://mavsdk.mavlink.io/develop/en/index.html
-Common Message  https://mavlink.io/en/messages/common.html
-Python API Reference http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
+* <a href="https://mavlink.io/en/">Guide</a>
+* <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
+* <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
+* <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
 </details>
 
-<details><summary>## MavProxy</summary>
+<details><summary>MavProxy</summary>
 
 Home    https://ardupilot.org/mavproxy/index.html
 Linux Dev Environment https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
@@ -76,36 +76,36 @@ Modules https://ardupilot.org/mavproxy/docs/modules/index.html
 # Protocols
 
 ## Analog
-<details><summary>### PWM  Pulse Width Modulation.</summary>
-- 1 channel.
-- length of the pulse specifies the servo output or throttle position.
+<details><summary>PWM  Pulse Width Modulation.</summary>
+* 1 channel.
+* length of the pulse specifies the servo output or throttle position.
 </details>
 
-<details><summary>### PPM,CPPM,PPMSUM  Pulse Postion Modulation.</summary>
-- 8 channels.
-- channels are sent one after the other.
-- It’s not as accurate or jitter free as serial communications, but it’s more widely available and supported by many Flight controllers.
+<details><summary>PPM,CPPM,PPMSUM  Pulse Postion Modulation.</summary>
+* 8 channels.
+* channels are sent one after the other.
+* It’s not as accurate or jitter free as serial communications, but it’s more widely available and supported by many Flight controllers.
 </details>
 
 ## Serial Protocols
-- Digital loss-less.
-- 3 wires (signal, power, ground).
-- multiple channels.
-- Serial Port required on reciever on FlightController
+* Digital loss-less.
+* 3 wires (signal, power, ground).
+* multiple channels.
+* Serial Port required on reciever on FlightController
 
-<details><summary>### SBUS</summary>
+<details><summary>SBUS</summary>
 Serial Bus.
-- 18 channels.
-- inverted UART communication signal.
+* 18 channels.
+* inverted UART communication signal.
 </details>
 
-<details><summary>## CRSF Crossfire.</summary>
-- faster update rates
-- two-way capabilities, no additional ports required.
+<details><summary>CRSF Crossfire</summary>
+* faster update rates
+* two-way capabilities, no additional ports required.
 </details>
 
 <details><summary>## Frsky</summary>
-D8      D/V series.
-D16     X series.
-LR12    (longrange) L9R
+* D8      D/V series.
+* D16     X series.
+* LR12    (longrange) L9R
 </details>
