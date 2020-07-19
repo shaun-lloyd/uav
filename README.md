@@ -11,9 +11,6 @@ My ardupilot uav.
 | Radio Reciever | TBS Crossfire 8Ch Diversity Rx | |
 | Antenna - Reciever | TBS Crossfire Tuned Rx Antenna 2pc | |
 | Radio | 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit  | |
-
-FPV
-
 | Radio Reciever | TBS Fusion Receiver Module For Goggles | |
 | fpv goggles | ORQA FPV.ONE OLED FPV GOGGLES | |
 | Antenna - video | TBS Fusion VAS Antenna Pack | |
@@ -29,18 +26,15 @@ Designed for hobby users, commercial system integrators and UAS manufacturers th
 autopilot is part of a wide ecosystem of autopilot modules and carrier boards. 
 
 ### ADS-B Carrier Board
-
 * Integration of uAvonix ADS-B IN Receiver on Serial 5
 * Built-In ADS-B Antenna
-* Removal of Intel Edison Bay and Debug USB Ports
-* All other specification and external connections remain identical to the original board as listed on the Cube Black page.
 
 # Software
 
 ## Ardupilot
 
-[ardupilot-home]
-[ardupilot-plane]
+* [ardupilot-home] Home
+* [ardupilot-plane] Plane
 
 [ardupilot-home]: https://ardupilot.org/ardupilot/index.html
 [ardupilot-plane]: https://ardupilot.org/plane/index.html
