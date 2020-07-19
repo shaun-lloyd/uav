@@ -39,7 +39,7 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 # Software
 
 <details>
-<summary>## Ardupilot</summary>
+<summary>Ardupilot</summary>
 
 * [ardupilot-home] Home
 * [ardupilot-plane] Plane
@@ -65,7 +65,11 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 * <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
 </details>
 
-<details><summary>MavProxy</summary>
+<details><summary>MavProxy 
+A UAV ground station software package for MAVLink based systems
+
+MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). MAVProxy is a powerful command-line based “developer” ground station software. It can be extended via add-on modules, or complemented with another ground station, such as Mission Planner, APM Planner 2, QGroundControl etc, to provide a graphical user interface.
+</summary>
 
 Home    https://ardupilot.org/mavproxy/index.html
 Linux Dev Environment https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
