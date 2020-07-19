@@ -1,10 +1,8 @@
 # Hardware
 
 | Component | Device | 
-| :---: | :---:|
-| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board |
-| <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> | <a href="http://github.com/fvcproductions" target="_blank">`github.com/fvcproductions`</a> |
-# Parts List
+|:---:|:---:|:---:|
+| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="http://www.proficnc.com/all-products/191-pixhawk2-suite.html" target="_blank">`proficnc`</a> |
 - Benewake - TF02 PRO LiDAR Rangefinder (40m)
 - 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit
 - TBS Fusion Receiver Module For Goggles
@@ -25,8 +23,11 @@
 
 ## Ardupilot
 
-Home    https://ardupilot.org/ardupilot/index.html
-Plane   https://ardupilot.org/plane/index.html
+[ardupilot-home]
+[ardupilot-plane]
+
+[ardupilot-home]: https://ardupilot.org/ardupilot/index.html
+[ardupilot-plane]: https://ardupilot.org/plane/index.html
 
 ## QGroundControl
 
