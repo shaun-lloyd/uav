@@ -12,7 +12,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Component | Device | Manufacturer | Manual | 
 | :---: | :---: | :---: | :---: |
 | Plane | ZOHD Nano Talon EVO 860mm Wingspan AIO V-Tail EPP FPV | <a href="https://au.banggood.com/ZOHD-Nano-Talon-EVO-860mm-Wingspan-AIO-V-Tail-EPP-FPV-Wing-RC-Airplane-PNPWith-FPV-Ready-p-1564933.html?ID=533302&cur_warehouse=AU" target="_blank">`banggood`</a> | |
-| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="http://www.proficnc.com/all-products/191-pixhawk2-suite.html" target="_blank">`proficnc`</a> | |
+| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="https://ardupilot.org/plane/docs/common-thecubeorange-overview.html" target="_blank">`proficnc`</a> | |
 | Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | |
 | Radio Reciever | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | |
 | Antenna - Reciever | TBS Crossfire Tuned Rx Antenna 2pc | <a href="https://www.team-blacksheep.com/products/prod:tuned_rx_antenna" target="_blank">`TBS`</a> | |
@@ -25,8 +25,21 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | |
 | LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299" target="_blank">`benewake`</a> | |
 
-<details>
-<summary>The Cube Orange</summary>
+# Tools
+| Component | Device | Manual |
+| :---: | :---: | :---: |
+| Battery Charger | | |
+| Battery Tester | | |
+| RF meter | ImmersionRC RF Power Meter V2 | <a href="https://docs.google.com/document/d/1MHtkZg81mqF2xibuO7tHb-OH-l9ib3NImpGnRQWFtBo/edit">manual</a> |
+
+<details><summary>Hacks</summary>
+
+<details><summary>Taranis QX7 - CRSF MOD</summary>
+* [ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
+</details>
+</details>
+
+<details><summary>The Cube Orange</summary>
 The Cube Orange autopilot is the latest and most powerful model in the Cubepilot ecosystem.
 Designed for hobby users, commercial system integrators and UAS manufacturers the Cube Orange 
 autopilot is part of a wide ecosystem of autopilot modules and carrier boards. 
@@ -38,14 +51,21 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 
 # Software
 
+<details><summary>Open Tx</summary>
+* [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
+* [ Docs ]: https://legacy.gitbook.com/@opentx
+* [ git ]: https://github.com/opentx/opentx
+
+</details>
+
 <details>
 <summary>Ardupilot</summary>
 
 * [ardupilot-home] Home
 * [ardupilot-plane] Plane
 
-[ardupilot-home]: https://ardupilot.org/ardupilot/index.html
-[ardupilot-plane]: https://ardupilot.org/plane/index.html
+[home]: https://ardupilot.org/ardupilot/index.html
+[plane]: https://ardupilot.org/plane/index.html
 
 </details>
 
@@ -57,13 +77,6 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 
 </details>
 
-<details><summary>Mavlink</summary>
-
-* <a href="https://mavlink.io/en/">Guide</a>
-* <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
-* <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
-* <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
-</details>
 
 <details><summary>MavProxy</summary> 
 A UAV ground station software package for MAVLink based systems
@@ -77,6 +90,7 @@ MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, porta
 </details>
 
 # Protocols
+In exhaustive list of protocols used in project. Basically the protocols that i care about.
 
 ## Analog
 <details><summary>PWM  Pulse Width Modulation.</summary>
@@ -107,8 +121,31 @@ Serial Bus.
 * two-way capabilities, no additional ports required.
 </details>
 
-<details><summary>## Frsky</summary>
+<details><summary>Frsky</summary>
 * D8      D/V series.
 * D16     X series.
 * LR12    (longrange) L9R
 </details>
+
+<details><summary>i2c</summary>
+I2C (Inter-Integrated Circuit), pronounced I-squared-C, is a synchronous, multi-master, multi-slave, packet switched, single-ended, serial communication bus invented in 1982 by Philips Semiconductor (now NXP Semiconductors). It is widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication.
+</details>
+
+<details><summary>SPI Serial Peripheral Interface</summary>
+The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems. The interface was developed by Motorola in the mid-1980s and has become a de facto standard. Typical applications include Secure Digital cards and liquid crystal displays. 
+</details>
+
+<details><summary>uart</summary>
+A universal asynchronous receiver-transmitter (UART /ˈjuːɑːrt/) is a computer hardware device for asynchronous serial communication in which the data format and transmission speeds are configurable. The electric signaling levels and methods are handled by a driver circuit external to the UART. A UART is usually an individual (or part of an) integrated circuit (IC) used for serial communications over a computer or peripheral device serial port. One or more UART peripherals are commonly integrated in microcontroller chips. A related device, the universal synchronous and asynchronous receiver-transmitter (USART) also supports synchronous operation. 
+</details>
+
+<details><summary>Mavlink</summary>
+
+MAVLink is a binary telemetry protocol designed for resource-constrained systems and bandwidth-constrained links. MAVLink is deployed in two major versions: v1.0 and v2.0, which is backwards-compatible (v2.0 implementations can parse and send v1.0 packets). Telemetry data streams are sent in a multicast design while protocol aspects that change the system configuration and require guaranteed delivery like the mission protocol or parameter protocol are point-to-point with retransmission.
+
+* <a href="https://mavlink.io/en/">Guide</a>
+* <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
+* <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
+* <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
+</details>
+
