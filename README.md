@@ -15,6 +15,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="https://ardupilot.org/plane/docs/common-thecubeorange-overview.html" target="_blank">`proficnc`</a> | |
 | Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | |
 | Radio Reciever | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | |
+| Radio Reciever | FrSky X8R | <a href="https://www.frsky-rc.com/product/x8r/" target="_blank">`FrSky`</a> | |
 | Antenna - Reciever | TBS Crossfire Tuned Rx Antenna 2pc | <a href="https://www.team-blacksheep.com/products/prod:tuned_rx_antenna" target="_blank">`TBS`</a> | |
 | Radio | 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit | <a href="https://droneshop.biz/product/915mhz-sik-radio-telemetry-bluetooth-adapter-500mw-complete-kit/?v=eedc0d4ce163" target="_blank">`droneshop`</a> |  |
 | Radio Reciever | TBS Fusion | <a href="https://www.team-blacksheep.com/products/prod:tbs_fusion" target="_blank">`TBS`</a>  | |
@@ -60,20 +61,17 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 
 <details>
 <summary>Ardupilot</summary>
-
-* [ardupilot-home] Home
-* [ardupilot-plane] Plane
+ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application. As an open source project, it is constantly evolving based on rapid feedback from a large community of users. The Development Team works with the community and commercial partners to add functionality to ArduPilot that benefits everyone. Although ArduPilot does not manufacture any hardware, ArduPilot firmware works on a wide variety of different hardware to control unmanned vehicles of all types. Coupled with ground control software, unmanned vehicles running ArduPilot can have advanced functionality including real-time communication with operators. ArduPilot has a huge online community dedicated to helping users with questions, problems, and solutions
 
 [home]: https://ardupilot.org/ardupilot/index.html
 [plane]: https://ardupilot.org/plane/index.html
-
 </details>
 
 <details>
 <summary>QGroundControl</summary>
 
-* User Guide  https://docs.qgroundcontrol.com/en/
-* Developer Guide https://dev.qgroundcontrol.com/en/
+- User Guide  https://docs.qgroundcontrol.com/en/
+- Developer Guide https://dev.qgroundcontrol.com/en/
 
 </details>
 
@@ -83,69 +81,79 @@ A UAV ground station software package for MAVLink based systems
 
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). MAVProxy is a powerful command-line based “developer” ground station software. It can be extended via add-on modules, or complemented with another ground station, such as Mission Planner, APM Planner 2, QGroundControl etc, to provide a graphical user interface.
 
-* [Home]: https://ardupilot.org/mavproxy/index.html
-* [Linux Dev Environment]: https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
-* [Cheatsheet]: https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet
-* [Modules]: https://ardupilot.org/mavproxy/docs/modules/index.html
+- [Home]: https://ardupilot.org/mavproxy/index.html
+- [Linux Dev Environment]: https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
+- [Cheatsheet]: https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet
+- [Modules]: https://ardupilot.org/mavproxy/docs/modules/index.html
 </details>
 
 # Protocols
-In exhaustive list of protocols used in project. Basically the protocols that i care about.
 
-## Analog
-<details><summary>PWM  Pulse Width Modulation.</summary>
-* 1 channel.
-* length of the pulse specifies the servo output or throttle position.
+<details>
+<summary>Mavlink</summary>
+
+MAVLink is a binary telemetry protocol designed for resource-constrained systems and bandwidth-constrained links.
+MAVLink is deployed in two major versions: v1.0 and v2.0, which is backwards-compatible (v2.0 implementations can parse and send v1.0 packets). 
+Telemetry data streams are sent in a multicast design while protocol aspects that change the system configuration,
+and require guaranteed delivery like the mission protocol or parameter protocol are point-to-point with retransmission.
+
+- <a href="https://mavlink.io/en/">Guide</a>
+- <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
+- <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
+- <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
 </details>
 
-<details><summary>PPM,CPPM,PPMSUM  Pulse Postion Modulation.</summary>
-* 8 channels.
-* channels are sent one after the other.
-* It’s not as accurate or jitter free as serial communications, but it’s more widely available and supported by many Flight controllers.
+<details>
+<summary>PWM</summary>
+Pulse Width Modulation.
+- analog.
+- 1 channel.
+- length of the pulse specifies the servo output or throttle position.
 </details>
 
-## Serial Protocols
-* Digital loss-less.
-* 3 wires (signal, power, ground).
-* multiple channels.
-* Serial Port required on reciever on FlightController
+<details>
+<summary>PPM</summary>
+Pulse Postion Modulation
+- analog.
+- 8 channels.
+- channels are sent one after the other.
+- It’s not as accurate or jitter free as serial communications.
+</details>
 
 <details><summary>SBUS</summary>
 Serial Bus.
-* 18 channels.
-* inverted UART communication signal.
+- digital loss-less.
+- 18 channels.
+- inverted UART communication signal.
 </details>
 
-<details><summary>CRSF Crossfire</summary>
-* faster update rates
-* two-way capabilities, no additional ports required.
+<details><summary>CRSF</summary>
+Crossfire Serial F?
+- digital loss-less.
+- faster update rates
+- two-way capabilities, no additional ports required.
 </details>
 
-<details><summary>Frsky</summary>
-* D8      D/V series.
-* D16     X series.
-* LR12    (longrange) L9R
+<details><summary>I2C</summary>
+Inter-Integrated Circuit
+- serial
+- multi-master, multi-slave, packet switched, single-ended.
 </details>
 
-<details><summary>i2c</summary>
-I2C (Inter-Integrated Circuit), pronounced I-squared-C, is a synchronous, multi-master, multi-slave, packet switched, single-ended, serial communication bus invented in 1982 by Philips Semiconductor (now NXP Semiconductors). It is widely used for attaching lower-speed peripheral ICs to processors and microcontrollers in short-distance, intra-board communication.
+<details>
+<summary>SPI</summary>
+Serial Peripheral Interface
+- synchronous serial. 
 </details>
 
-<details><summary>SPI Serial Peripheral Interface</summary>
-The Serial Peripheral Interface (SPI) is a synchronous serial communication interface specification used for short-distance communication, primarily in embedded systems. The interface was developed by Motorola in the mid-1980s and has become a de facto standard. Typical applications include Secure Digital cards and liquid crystal displays. 
-</details>
+Device
 
-<details><summary>uart</summary>
-A universal asynchronous receiver-transmitter (UART /ˈjuːɑːrt/) is a computer hardware device for asynchronous serial communication in which the data format and transmission speeds are configurable. The electric signaling levels and methods are handled by a driver circuit external to the UART. A UART is usually an individual (or part of an) integrated circuit (IC) used for serial communications over a computer or peripheral device serial port. One or more UART peripherals are commonly integrated in microcontroller chips. A related device, the universal synchronous and asynchronous receiver-transmitter (USART) also supports synchronous operation. 
-</details>
+<details><summary>UART</summary>
+A universal asynchronous receiver-transmitter a hardware device for asynchronous serial communication in which the data format and transmission speeds are configurable.
+The electric signaling levels and methods are handled by a driver circuit external to the UART.
+A UART is usually an individual (or part of an) integrated circuit (IC) used for serial communications over a computer or peripheral device serial port.
+One or more UART peripherals are commonly integrated in microcontroller chips.
 
-<details><summary>Mavlink</summary>
-
-MAVLink is a binary telemetry protocol designed for resource-constrained systems and bandwidth-constrained links. MAVLink is deployed in two major versions: v1.0 and v2.0, which is backwards-compatible (v2.0 implementations can parse and send v1.0 packets). Telemetry data streams are sent in a multicast design while protocol aspects that change the system configuration and require guaranteed delivery like the mission protocol or parameter protocol are point-to-point with retransmission.
-
-* <a href="https://mavlink.io/en/">Guide</a>
-* <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
-* <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
-* <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
+A related device, the universal synchronous and asynchronous receiver-transmitter (USART) also supports synchronous operation. 
 </details>
 
