@@ -53,6 +53,24 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 # Software
 
 <details><summary>Open Tx</summary>
+
+## FIRMWARE
+OpenTX is open source firmware for RC radio transmitters. 
+The firmware is highly configurable and brings much more features than found in traditional radios. 
+The daily feedback from the thousands of users ensures the continued stability and quality of the firmware.
+
+## COMPANION
+The team also develops the OpenTX Companion transmitter support software.
+OpenTX Companion is used for many different tasks like loading OpenTX firmware to the radio, backing up model settings, editing settings and running radio simulators.
+OpenTX Companion is available for Windows, Apple OSX and Linux.
+
+## SOUND
+There are two applications available for creating and managing the soundfiles used by OpenTX.
+OpenTX Speaker is used to generate voice files for OpenTX by using synthetic speech. OpenTX Recorder is used to record voice files via a microphone.
+Both programs can generate sound files for all OpenTX voice languages. Every radio message, including system messages, can be changed.
+OpenTX Speaker and OpenTXRecorder are available for Windows7.
+
+* [ Home ]: https://www.open-tx.org/
 * [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
 * [ Docs ]: https://legacy.gitbook.com/@opentx
 * [ git ]: https://github.com/opentx/opentx
@@ -63,8 +81,8 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 <summary>Ardupilot</summary>
 ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application. As an open source project, it is constantly evolving based on rapid feedback from a large community of users. The Development Team works with the community and commercial partners to add functionality to ArduPilot that benefits everyone. Although ArduPilot does not manufacture any hardware, ArduPilot firmware works on a wide variety of different hardware to control unmanned vehicles of all types. Coupled with ground control software, unmanned vehicles running ArduPilot can have advanced functionality including real-time communication with operators. ArduPilot has a huge online community dedicated to helping users with questions, problems, and solutions
 
-[home]: https://ardupilot.org/ardupilot/index.html
-[plane]: https://ardupilot.org/plane/index.html
+* [home]: https://ardupilot.org/ardupilot/index.html
+* [plane]: https://ardupilot.org/plane/index.html
 </details>
 
 <details>
@@ -106,6 +124,7 @@ and require guaranteed delivery like the mission protocol or parameter protocol 
 <details>
 <summary>PWM</summary>
 Pulse Width Modulation.
+
 - analog.
 - 1 channel.
 - length of the pulse specifies the servo output or throttle position.
