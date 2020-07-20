@@ -126,9 +126,10 @@ Cross-platform wrappers for the core library are actively being developed. These
 
 - [ Home ]: https://mavsdk.mavlink.io/develop/en/index.html
 - [ Python ]: https://github.com/mavlink/MAVSDK-Python#mavsdk-python
-- [ Python_-Example]: https://github.com/mavlink/MAVSDK-Python/tree/master/examples
+- [ Python Examples ]: https://github.com/mavlink/MAVSDK-Python/tree/master/examples
 - [ Python API Reference ]: http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
 </details>
+
 # Protocols
 
 <details>
