@@ -74,7 +74,6 @@ OpenTX Speaker and OpenTXRecorder are available for Windows7.
 - [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
 - [ Docs ]: https://legacy.gitbook.com/@opentx
 - [ git ]: https://github.com/opentx/opentx
-
 </details>
 
 <details>
@@ -95,10 +94,10 @@ Its primary goal is ease of use for professional users and developers. All the c
 - [ User Guide ]: https://docs.qgroundcontrol.com/en/
 - [ Dev Guide ]: https://dev.qgroundcontrol.com/en/
 - [ Download ]: https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html
-
 </details>
 
-<details><summary>MavProxy</summary> 
+<details>
+<summary>MavProxy</summary> 
 A UAV ground station software package for MAVLink based systems
 
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). MAVProxy is a powerful command-line based “developer” ground station software. It can be extended via add-on modules, or complemented with another ground station, such as Mission Planner, APM Planner 2, QGroundControl etc, to provide a graphical user interface.
@@ -129,7 +128,7 @@ Cross-platform wrappers for the core library are actively being developed. These
 - [ Python ]: https://github.com/mavlink/MAVSDK-Python#mavsdk-python
 - [ Python_-Example]: https://github.com/mavlink/MAVSDK-Python/tree/master/examples
 - [ Python API Reference ]: http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
-
+</details>
 # Protocols
 
 <details>
