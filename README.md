@@ -88,11 +88,15 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 <details>
 <summary>QGroundControl</summary>
 
-- User Guide  https://docs.qgroundcontrol.com/en/
-- Developer Guide https://dev.qgroundcontrol.com/en/
+QGroundControl provides full flight control and mission planning for any MAVLink enabled drone.
+Its primary goal is ease of use for professional users and developers. All the code is open-source source, so you can contribute and evolve it as you want.
+
+- [ Home ]: http://qgroundcontrol.com/
+- [ User Guide ]: https://docs.qgroundcontrol.com/en/
+- [ Dev Guide ]: https://dev.qgroundcontrol.com/en/
+- [ Download ]: https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html
 
 </details>
-
 
 <details><summary>MavProxy</summary> 
 A UAV ground station software package for MAVLink based systems
@@ -104,6 +108,27 @@ MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, porta
 - [Cheatsheet]: https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet
 - [Modules]: https://ardupilot.org/mavproxy/docs/modules/index.html
 </details>
+
+<details>
+<summary>MavSDK</summary>
+The easiest way to control Drones using MAVLink.
+The MAVSDK is a MAVLink Library with APIs for C++, iOS, Python and Android.
+
+The library provides a simple API for managing one or more vehicles, providing programmatic access to vehicle information and telemetry,
+and control over missions, movement and other operations.
+
+The library can run on a vehicle-based companion computer or on a ground-based GCS or mobile device (these devices have significantly more 
+processing power that an ordinary flight controller, enabling tasks like computer vision, obstacle avoidance, and route planning).
+
+Developers can extend the core C++ SDK using plugins in order to add any other required MAVLink API 
+(for example, to integrate a flight controller with custom cameras, gimbals, or other hardware over MAVLink).
+
+Cross-platform wrappers for the core library are actively being developed. These (primarily) use gRPC and Reactive Extensions.
+
+- [ Home ]: https://mavsdk.mavlink.io/develop/en/index.html
+- [ Python ]: https://github.com/mavlink/MAVSDK-Python#mavsdk-python
+- [ Python_-Example]: https://github.com/mavlink/MAVSDK-Python/tree/master/examples
+- [ Python API Reference ]: http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
 
 # Protocols
 
