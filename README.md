@@ -123,6 +123,7 @@ Pulse Postion Modulation
 
 <details><summary>SBUS</summary>
 Serial Bus.
+
 - digital loss-less.
 - 18 channels.
 - inverted UART communication signal.
@@ -130,6 +131,7 @@ Serial Bus.
 
 <details><summary>CRSF</summary>
 Crossfire Serial F?
+
 - digital loss-less.
 - faster update rates
 - two-way capabilities, no additional ports required.
@@ -137,6 +139,7 @@ Crossfire Serial F?
 
 <details><summary>I2C</summary>
 Inter-Integrated Circuit
+
 - serial
 - multi-master, multi-slave, packet switched, single-ended.
 </details>
@@ -144,6 +147,7 @@ Inter-Integrated Circuit
 <details>
 <summary>SPI</summary>
 Serial Peripheral Interface
+
 - synchronous serial. 
 </details>
 
