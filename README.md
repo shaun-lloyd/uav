@@ -114,6 +114,7 @@ Pulse Width Modulation.
 <details>
 <summary>PPM</summary>
 Pulse Postion Modulation
+
 - analog.
 - 8 channels.
 - channels are sent one after the other.
