@@ -16,7 +16,8 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | ESC | ZTW Mantis Slim 40A SBEC Brushless ESC Speed Controller | <a href="https://www.ztwoem.com/product/mantis-slim-series/" target="_blank">`mantis`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/ztw-mantis.pdf">manual</a> |
 | Propellor | | <a href="" target="_blank">``</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
 | Servo | Racerstar MG90S 9g Micro Metal Gear Analog Servo | <a href="http://m.racerstar.com/4pcs-racerstar-mg90s-9g-micro-metal-gear-analog-servo-for-450-rc-helicopter-rc-car-boat-robot-p-367.html" target="_blank">`Racerstar`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/servo-MG90S.pdf">manual</a> |
-| Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="https://ardupilot.org/plane/docs/common-thecubeorange-overview.html" target="_blank">`proficnc`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/pixhawk2.pdf">manual</a> |
+| Flight Controller Carrier Board  | Pixhawk2.1 with ADS-B | <a href="https://docs.cubepilot.org/user-guides/carrier-boards/ads-b-carrier-board" target="_blank">`cubepilot`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/pixhawk2.pdf">manual</a> |
+| Flight Controller Sensors  |  Cube Orange | <a href="">`Cube Orange`</a> | |
 | Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/taranis-qx7.pdf">manual</a> |
 | Radio Reciever | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-crossfire.pdf">manual</a> |
 | Radio Reciever | FrSky X8R | <a href="https://www.frsky-rc.com/product/x8r/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/frsky-reciever-x8r.pdf">manual</a> |
@@ -46,11 +47,40 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 </details>
 </details>
 
-
 <details><summary>The Cube Orange</summary>
 The Cube Orange autopilot is the latest and most powerful model in the Cubepilot ecosystem.
 Designed for hobby users, commercial system integrators and UAS manufacturers the Cube Orange 
 autopilot is part of a wide ecosystem of autopilot modules and carrier boards. 
+
+
+## Processor
+* 32bit ARM® STM32H743 Cortex®-M7（with DP-FPU）
+* 400 Mhz/1 MB RAM/2 MB Flash
+* 32 bit STM32F103 failsafe co-processor
+## Sensors
+* Three redundant IMUs (accels, gyros and compass)
+* ICM 20649 integrated accelerometer / gyro, MS5611 barometer on base board
+* InvenSense ICM20602 IMU,ICM20948 IMU/MAG, MS5611 barometer on temperature controlled, vibration isolated board
+* All sensors connected via SPI.
+## Power
+* Redundant power supply with automatic failover
+* Servo rail high-power (7 V) and high-current ready
+* All peripheral outputs over-current protected, all inputs ESD protected
+## Interfaces
+* 14x PWM servo outputs (8 from IO, 6 from FMU)
+* S.Bus servo output
+* R/C inputs for CPPM, Spektrum / DSM and S.Bus
+* Analogue / PWM RSSI input
+* 5x general purpose serial ports, 2 with full flow control
+* 2x I2C ports
+* SPI port (un-buffered, for short cables only not recommended for use)
+* 2x CAN Bus interface
+* 3x Analogue inputs (3.3V and 6.6V)
+* High-powered piezo buzzer driver (on expansion board)
+* High-power RGB LED (I2C driver compatible connected externally only)
+* Safety switch / LED
+* Optional carrier board for Intel Edison (now obsolete)
+
 </details>
 
 <details><summary>ADS-B Carrier Board</summary>
