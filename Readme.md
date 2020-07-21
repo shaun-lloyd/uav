@@ -16,7 +16,6 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | ESC | ZTW Mantis Slim 40A SBEC Brushless ESC Speed Controller | <a href="https://www.ztwoem.com/product/mantis-slim-series/" target="_blank">`mantis`</a> | |
 | Propellor | | <a href="" target="_blank">``</a> | |
 | Servo | Racerstar MG90S 9g Micro Metal Gear Analog Servo | <a href="http://m.racerstar.com/4pcs-racerstar-mg90s-9g-micro-metal-gear-analog-servo-for-450-rc-helicopter-rc-car-boat-robot-p-367.html" target="_blank">`Racerstar`</a> | | 
-
 | Flight Controller  | The Cube Orange – Standard Set with ADS-B Carrier Board | <a href="https://ardupilot.org/plane/docs/common-thecubeorange-overview.html" target="_blank">`proficnc`</a> | |
 | Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | |
 | Radio Reciever | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | |
