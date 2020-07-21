@@ -30,6 +30,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
 | LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299">`benewake`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/benewake-TF02.pdf">manual</a> |
 | Radio Satellite | RockBLOCK 9603 | <a href="https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter">`ROCKBLOCK 19603`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rockblock-9603.pdf">manual</a> |
+| Companion | RPI Zero | <a href="https://www.raspberrypi.org/products/raspberry-pi-zero/">`RPI`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rpi-zero.pdf">`manual`</a> |
 
 # Tools
 | Component | Device | Manual |
@@ -55,6 +56,12 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 * Integration of uAvonix ADS-B IN Receiver on Serial 5
 * Built-In ADS-B Antenna
 </details>
+
+<details><summary>RPI Zero</summary>
+
+* [Config](https://www.raspberrypi.org/documentation/configuration/)
+* [Hardware](https://www.raspberrypi.org/documentation/hardware/raspberrypi/README.md)
+
 
 # Software
 
@@ -83,11 +90,40 @@ OpenTX Speaker and OpenTXRecorder are available for Windows7.
 </details>
 
 <details>
+<summary>Yappu Telemetry</summery>
+
+a LUA telemetry script for the Frsky Horus and Taranis radios using the ArduPilot frsky passthru telemetry protocol.
+
+* [git](https://github.com/yaapu/FrskyTelemetryScript)
+</details>
+
+<details>
 <summary>Ardupilot</summary>
 ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application. As an open source project, it is constantly evolving based on rapid feedback from a large community of users. The Development Team works with the community and commercial partners to add functionality to ArduPilot that benefits everyone. Although ArduPilot does not manufacture any hardware, ArduPilot firmware works on a wide variety of different hardware to control unmanned vehicles of all types. Coupled with ground control software, unmanned vehicles running ArduPilot can have advanced functionality including real-time communication with operators. ArduPilot has a huge online community dedicated to helping users with questions, problems, and solutions
 
 * [Home](https://ardupilot.org/ardupilot/index.html)
 * [Plane](https://ardupilot.org/plane/index.html)
+* [Build Setup](https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux)
+* [Build Instructions](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md)
+
+Setup Docker
+```shell
+git clone https://github.com/your-github-userid/ardupilot
+cd ardupilot
+git submodule update --init --recursive
+
+docker build . -t ardupilot
+
+docker run --rm -it -v `pwd`:/ardupilot ardupilot:latest bash
+```
+
+Build
+```shell
+./waf configure --board CubeOrange
+./waf --all-tests plane
+
+./waf --targets bin/arduplane --upload
+```
 </details>
 
 <details>
