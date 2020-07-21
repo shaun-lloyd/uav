@@ -61,7 +61,7 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 
 * [Config](https://www.raspberrypi.org/documentation/configuration/)
 * [Hardware](https://www.raspberrypi.org/documentation/hardware/raspberrypi/README.md)
-
+</details>
 
 # Software
 
