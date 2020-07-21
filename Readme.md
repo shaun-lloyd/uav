@@ -75,18 +75,18 @@ OpenTX Speaker is used to generate voice files for OpenTX by using synthetic spe
 Both programs can generate sound files for all OpenTX voice languages. Every radio message, including system messages, can be changed.
 OpenTX Speaker and OpenTXRecorder are available for Windows7.
 
-- [ Home ]: https://www.open-tx.org/
-- [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
-- [ Docs ]: https://legacy.gitbook.com/@opentx
-- [ git ]: https://github.com/opentx/opentx
+* [Home](https://www.open-tx.org/)
+* [Manual](https://opentx.gitbooks.io/manual-for-opentx-2-2/content/)
+* [Docs](https://legacy.gitbook.com/@opentx)
+* [git](https://github.com/opentx/opentx)
 </details>
 
 <details>
 <summary>Ardupilot</summary>
 ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle systems for the peaceful benefit of all. ArduPilot provides a comprehensive suite of tools suitable for almost any vehicle and application. As an open source project, it is constantly evolving based on rapid feedback from a large community of users. The Development Team works with the community and commercial partners to add functionality to ArduPilot that benefits everyone. Although ArduPilot does not manufacture any hardware, ArduPilot firmware works on a wide variety of different hardware to control unmanned vehicles of all types. Coupled with ground control software, unmanned vehicles running ArduPilot can have advanced functionality including real-time communication with operators. ArduPilot has a huge online community dedicated to helping users with questions, problems, and solutions
 
-* [home]: https://ardupilot.org/ardupilot/index.html
-* [plane]: https://ardupilot.org/plane/index.html
+* [Home](https://ardupilot.org/ardupilot/index.html)
+* [Plane](https://ardupilot.org/plane/index.html)
 </details>
 
 <details>
@@ -95,10 +95,10 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 QGroundControl provides full flight control and mission planning for any MAVLink enabled drone.
 Its primary goal is ease of use for professional users and developers. All the code is open-source source, so you can contribute and evolve it as you want.
 
-- [ Home ]: http://qgroundcontrol.com/
-- [ User Guide ]: https://docs.qgroundcontrol.com/en/
-- [ Dev Guide ]: https://dev.qgroundcontrol.com/en/
-- [ Download ]: https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html
+* [Home](http://qgroundcontrol.com/)
+* [User Guide](https://docs.qgroundcontrol.com/en/)
+* [Dev Guide](https://dev.qgroundcontrol.com/en/)
+* [Download](https://docs.qgroundcontrol.com/en/getting_started/download_and_install.html)
 </details>
 
 <details>
@@ -107,10 +107,10 @@ A UAV ground station software package for MAVLink based systems
 
 MAVProxy is a fully-functioning GCS for UAV’s, designed as a minimalist, portable and extendable GCS for any autonomous system supporting the MAVLink protocol (such as one using ArduPilot). MAVProxy is a powerful command-line based “developer” ground station software. It can be extended via add-on modules, or complemented with another ground station, such as Mission Planner, APM Planner 2, QGroundControl etc, to provide a graphical user interface.
 
-- [Home]: https://ardupilot.org/mavproxy/index.html
-- [Linux Dev Environment]: https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html
-- [Cheatsheet]: https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet
-- [Modules]: https://ardupilot.org/mavproxy/docs/modules/index.html
+* [Home](https://ardupilot.org/mavproxy/index.html)
+* [Linux Dev Environment](https://ardupilot.org/mavproxy/docs/development/mavdevenvlinux.html)
+* [Cheatsheet](https://ardupilot.org/mavproxy/docs/getting_started/cheatsheet.html#mavproxy-cheetsheet)
+* [Modules](https://ardupilot.org/mavproxy/docs/modules/index.html)
 </details>
 
 <details>
@@ -129,10 +129,10 @@ Developers can extend the core C++ SDK using plugins in order to add any other r
 
 Cross-platform wrappers for the core library are actively being developed. These (primarily) use gRPC and Reactive Extensions.
 
-- [ Home ]: https://mavsdk.mavlink.io/develop/en/index.html
-- [ Python ]: https://github.com/mavlink/MAVSDK-Python#mavsdk-python
-- [ Python Examples ]: https://github.com/mavlink/MAVSDK-Python/tree/master/examples
-- [ Python API Reference ]: http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/
+* [Home](https://mavsdk.mavlink.io/develop/en/index.html)
+* [Python](https://github.com/mavlink/MAVSDK-Python#mavsdk-python)
+* [Python Examples](https://github.com/mavlink/MAVSDK-Python/tree/master/examples) 
+* [Python API Reference](http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com/)
 </details>
 
 # Protocols
@@ -145,59 +145,59 @@ MAVLink is deployed in two major versions: v1.0 and v2.0, which is backwards-com
 Telemetry data streams are sent in a multicast design while protocol aspects that change the system configuration,
 and require guaranteed delivery like the mission protocol or parameter protocol are point-to-point with retransmission.
 
-- <a href="https://mavlink.io/en/">Guide</a>
-- <a href="https://mavsdk.mavlink.io/develop/en/index.html">SDK</a>
-- <a href="https://mavlink.io/en/messages/common.html">Common Messages</a>
-- <a href="http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com">Python API Reference</a>
+* [Guide] (https://mavlink.io/en/)
+* [SDK] (https://mavsdk.mavlink.io/develop/en/index.html)
+* [Common Messages](https://mavlink.io/en/messages/common.html)
+* [Python API Reference](http://mavsdk-python-docs.s3-website.eu-central-1.amazonaws.com)
 </details>
 
 <details>
 <summary>PWM</summary>
 Pulse Width Modulation.
 
-- analog.
-- 1 channel.
-- length of the pulse specifies the servo output or throttle position.
+* analog.
+* 1 channel.
+* length of the pulse specifies the servo output or throttle position.
 </details>
 
 <details>
 <summary>PPM</summary>
 Pulse Postion Modulation
 
-- analog.
-- 8 channels.
-- channels are sent one after the other.
-- It’s not as accurate or jitter free as serial communications.
+* analog.
+* 8 channels.
+* channels are sent one after the other.
+* It’s not as accurate or jitter free as serial communications.
 </details>
 
 <details><summary>SBUS</summary>
 Serial Bus.
 
-- digital loss-less.
-- 18 channels.
-- inverted UART communication signal.
+* digital loss-less.
+* 18 channels.
+* inverted UART communication signal.
 </details>
 
 <details><summary>CRSF</summary>
 Crossfire Serial F?
 
-- digital loss-less.
-- faster update rates
-- two-way capabilities, no additional ports required.
+* digital loss-less.
+* faster update rates
+* two-way capabilities, no additional ports required.
 </details>
 
 <details><summary>I2C</summary>
 Inter-Integrated Circuit
 
-- serial
-- multi-master, multi-slave, packet switched, single-ended.
+* serial
+* multi-master, multi-slave, packet switched, single-ended.
 </details>
 
 <details>
 <summary>SPI</summary>
 Serial Peripheral Interface
 
-- synchronous serial. 
+* synchronous serial. 
 </details>
 
 <details>
