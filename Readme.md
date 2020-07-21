@@ -11,7 +11,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 
 | Component | Device | Manufacturer | Manual | 
 | :---: | :---: | :---: | :---: |
-| Plane | X-UAV Mini Talon aircraft FPV | <a href="http://www.x-uav.cn/en/content/?465.html" target="_blank">`x-uav`</a> | |
+| Plane | X-UAV Mini Talon aircraft FPV | <a href="http://www.x-uav.cn/en/content/?465.html" target="_blank">`x-uav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/xuav-mini_talon.pdf">manual</a>|
 | Motor | SunnySky X2212-III KV980 KV1250 KV1400 3-4S Long Shaft Outrunner Brushless Motor | <a href="https://sunnyskyusa.com/products/sunnsky-x2212" target="_blank">`SunnySky`</a> | |
 | ESC | ZTW Mantis Slim 40A SBEC Brushless ESC Speed Controller | <a href="https://www.ztwoem.com/product/mantis-slim-series/" target="_blank">`mantis`</a> | |
 | Propellor | | <a href="" target="_blank">``</a> | |
@@ -29,6 +29,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/" target="_blank">`runcam`</a> | |
 | Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | |
 | LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299" target="_blank">`benewake`</a> | |
+| Radio Satellite | RockBLOCK 9603 | <a href="https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter" target+="_blank">`ROCKBLOCK 19603`</a> | |
 
 # Tools
 | Component | Device | Manual |
