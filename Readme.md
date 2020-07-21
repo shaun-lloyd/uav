@@ -51,10 +51,87 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 The Cube Orange autopilot is the latest and most powerful model in the Cubepilot ecosystem.
 Designed for hobby users, commercial system integrators and UAS manufacturers the Cube Orange 
 autopilot is part of a wide ecosystem of autopilot modules and carrier boards. 
+</details>
 
-### ADS-B Carrier Board
+<details><summary>ADS-B Carrier Board</summary>
 * Integration of uAvonix ADS-B IN Receiver on Serial 5
 * Built-In ADS-B Antenna
+
+## TELEM1, TELEM2 ports
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | TX (OUT) | +3.3 |
+| 3 | blk | RX (IN) | +3.3 |
+| 4 | blk | CTS | +3.3 |
+| 5 | blk | RTS | +3.3 |
+| 6 | blk | GND | GND |
+
+## GPS1 port
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | TX (OUT) | +3.3 |
+| 3 | blk | RX (IN) | +3.3 |
+| 4 | blk | SCL I2C1 | +3.3 |
+| 5 | blk | SDA I2C1 | +3.3 |
+| 6 | blk | Button | GND |
+| 7 | blk | button LED | GND |
+|  | blk | GND | GND |
+
+## GPS2 port
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | TX (OUT) | +3.3 |
+| 3 | blk | RX (IN) | +3.3 |
+| 4 | blk | SCL I2C2 | +3.3 |
+| 5 | blk | SDA I2C2 | +3.3 |
+| 6 | blk | GND | GND |
+
+## ADC
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | ADC IN | |
+| 3 | blk | GND | GND |
+
+## I2C2
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | SCL | +3.3 (pullups) |
+| 3 | blk | SDA | +3.3 (pullups) |
+| 4 | blk | GND | GND |
+
+## CAN1&2
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | CAN_H | +12 |
+| 3 | blk | CAN_L | +12 |
+| 4 | blk | GND | GND |
+
+## POWER1&2
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | red | VCC | +5 |
+| 3 | blk | CURRENT | up to +3.3 |
+| 4 | blk | VOLTAGE | up to +3.3 |
+| 5 | blk | GND | GND |
+| 6 | blk | GND | GND |
+
+## USB
+| Pin | Color | Signal | Volt |
+| :---: | :---: | :---: | :---: |
+| 1 | red | VCC | +5 |
+| 2 | blk | D_plus | +3.3 |
+| 3 | blk | D_minus  | +3.3 |
+| 4 | blk | GND | GND |
+| 5 | blk | BUZZER | battery voltage |
+| 6 | blk | Boot/Error LED | |
+
 </details>
 
 <details><summary>RPI Zero</summary>
@@ -104,9 +181,11 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 * [Plane](https://ardupilot.org/plane/index.html)
 * [Build Setup](https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux)
 * [Build Instructions](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md)
+* [Radio Control Calibration](https://ardupilot.org/copter/docs/common-radio-control-calibration.html#common-radio-control-calibration)
+* [ESC Calibration](https://ardupilot.org/copter/docs/esc-calibration.html)
 
 ### Setup Docker
-```shell
+```sh
 git clone https://github.com/your-github-userid/ardupilot
 cd ardupilot
 git submodule update --init --recursive
@@ -117,7 +196,7 @@ docker run --rm -it -v `pwd`:/ardupilot ardupilot:latest bash
 ```
 
 ### Build
-```
+```sh
 ./waf configure --board CubeOrange
 ./waf --all-tests plane
 
