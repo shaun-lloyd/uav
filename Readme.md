@@ -40,7 +40,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 <details><summary>Hacks</summary>
 
 <details><summary>Taranis QX7 - CRSF MOD</summary>
-[ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
+- [ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
 </details>
 </details>
 
@@ -75,10 +75,10 @@ OpenTX Speaker is used to generate voice files for OpenTX by using synthetic spe
 Both programs can generate sound files for all OpenTX voice languages. Every radio message, including system messages, can be changed.
 OpenTX Speaker and OpenTXRecorder are available for Windows7.
 
-* [Home]: https://www.open-tx.org/
-* [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
-* [ Docs ]: https://legacy.gitbook.com/@opentx
-* [ git ]: https://github.com/opentx/opentx
+- [ Home ]: https://www.open-tx.org/
+- [ Manual ]: https://opentx.gitbooks.io/manual-for-opentx-2-2/content/
+- [ Docs ]: https://legacy.gitbook.com/@opentx
+- [ git ]: https://github.com/opentx/opentx
 </details>
 
 <details>
