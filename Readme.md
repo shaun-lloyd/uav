@@ -89,8 +89,7 @@ OpenTX Speaker and OpenTXRecorder are available for Windows7.
 * [git](https://github.com/opentx/opentx)
 </details>
 
-<details>
-<summary>Yappu Telemetry</summery>
+<details><summary>Yappu Telemetry</summary>
 
 a LUA telemetry script for the Frsky Horus and Taranis radios using the ArduPilot frsky passthru telemetry protocol.
 
@@ -106,7 +105,7 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 * [Build Setup](https://ardupilot.org/dev/docs/building-setup-linux.html#building-setup-linux)
 * [Build Instructions](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md)
 
-Setup Docker
+### Setup Docker
 ```shell
 git clone https://github.com/your-github-userid/ardupilot
 cd ardupilot
@@ -117,8 +116,8 @@ docker build . -t ardupilot
 docker run --rm -it -v `pwd`:/ardupilot ardupilot:latest bash
 ```
 
-Build
-```shell
+### Build
+```
 ./waf configure --board CubeOrange
 ./waf --all-tests plane
 
