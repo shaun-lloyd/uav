@@ -28,7 +28,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 | Video Transmittor | TBS Unify Pro32 HV (MMCX) | <a href="https://www.team-blacksheep.com/products/prod:unifypro32_hv">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-unify-5g8.pdf">manual</a> |
 | Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/">`runcam`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
 | Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
-| LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299">`benewake`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/benewake-tf02.pdf">manual</a> |
+| LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299">`benewake`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/benewake-TF02.pdf">manual</a> |
 | Radio Satellite | RockBLOCK 9603 | <a href="https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter">`ROCKBLOCK 19603`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rockblock-9603.pdf">manual</a> |
 
 # Tools
