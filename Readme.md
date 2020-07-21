@@ -40,7 +40,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 <details><summary>Hacks</summary>
 
 <details><summary>Taranis QX7 - CRSF MOD</summary>
-* [ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
+[ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
 </details>
 </details>
 
