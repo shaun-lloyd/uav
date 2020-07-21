@@ -11,7 +11,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 
 | Component | Device | Manufacturer | Manual | 
 | :---: | :---: | :---: | :---: |
-| Plane | X-UAV Mini Talon aircraft FPV | <a href="http://www.x-uav.cn/en/content/?465.html" target="_blank">`x-uav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/xuav-mini_talon.pdf">manual</a>|
+| Plane | X-UAV Mini Talon aircraft FPV | <a href="http://www.x-uav.cn/en/content/?465.html" target="_blank">`x-uav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/xuav-mini_talon.pdf">manual</a>| 
 | Motor | SunnySky X2212-III KV980 KV1250 KV1400 3-4S Long Shaft Outrunner Brushless Motor | <a href="https://sunnyskyusa.com/products/sunnsky-x2212" target="_blank">`SunnySky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/sunnysky-1400.pdf">manual</a> |
 | ESC | ZTW Mantis Slim 40A SBEC Brushless ESC Speed Controller | <a href="https://www.ztwoem.com/product/mantis-slim-series/" target="_blank">`mantis`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/ztw-mantis.pdf">manual</a> |
 | Propellor | | <a href="" target="_blank">``</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
