@@ -77,6 +77,7 @@ If you become aware of manned aircraft nearby, you will have to manoeuvre away a
 
 # Tools
 | Component | Device | Manual |
+| --- | --- | --- |
 | Battery Charger | | |
 | Battery Tester | | |
 | RF meter | ImmersionRC RF Power Meter V2 | <a href="https://docs.google.com/document/d/1MHtkZg81mqF2xibuO7tHb-OH-l9ib3NImpGnRQWFtBo/edit">manual</a> |
@@ -214,6 +215,11 @@ autopilot is part of a wide ecosystem of autopilot modules and carrier boards.
 
 <details><summary>Open Tx</summary>
 
+* [Home](https://www.open-tx.org/)
+* [Manual](https://opentx.gitbooks.io/manual-for-opentx-2-2/content/)
+* [Docs](https://legacy.gitbook.com/@opentx)
+* [git](https://github.com/opentx/opentx)
+
 ## FIRMWARE
 OpenTX is open source firmware for RC radio transmitters. 
 The firmware is highly configurable and brings much more features than found in traditional radios. 
@@ -229,11 +235,6 @@ There are two applications available for creating and managing the soundfiles us
 OpenTX Speaker is used to generate voice files for OpenTX by using synthetic speech. OpenTX Recorder is used to record voice files via a microphone.
 Both programs can generate sound files for all OpenTX voice languages. Every radio message, including system messages, can be changed.
 OpenTX Speaker and OpenTXRecorder are available for Windows7.
-
-* [Home](https://www.open-tx.org/)
-* [Manual](https://opentx.gitbooks.io/manual-for-opentx-2-2/content/)
-* [Docs](https://legacy.gitbook.com/@opentx)
-* [git](https://github.com/opentx/opentx)
 </details>
 
 <details><summary>Yappu Telemetry</summary>
