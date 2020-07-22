@@ -5,37 +5,77 @@ I have yet to recieve all the parts, this repo is just documenting my progress.
 This project could not exist without the tireless work of the Ardupilot community under
 the guidance of hacker legend Andrew Trigdell.
 
-I want to thank Lee Schofield of painless360 for his wealth of tutorials and guidance. 
+I want to thank the following for the help:
+* [Lee Schofield](http://www.painless360.com/) 
+* [Mark Qvale](http://www.itsqv.com/QVM/index.php?title=Main_Page)
+
+<details><summary>Legal</summary>
+
+[Drone Regulations](https://droneregulations.info/)
+[CASA](https://www.casa.gov.au/knowyourdrone)
+
+## Australia
+
+* You must not fly your drone higher than 120 metres.
+* You must keep your drone at least 30 metres away from other people.
+* You must only fly one drone at a time.
+* You must keep your drone within visual line-of-sight.
+* You must not fly over or above people or in a populous area. This could include beaches, parks, events, or sport ovals where there is a game in progress.
+* Respect personal privacy. Don’t record or photograph people without their consent — this may breach other laws.
+* If your drone weighs more than 100 grams, you must fly at least 5.5 kilometres away from a controlled airport, which generally have a control tower at them.
+* You must only fly during the day and you must not fly through cloud or fog.
+* You must not fly your drone over or near an area affecting public safety or where emergency operations are underway. 
+* If you're near a helicopter landing site or smaller aerodrome without a control tower, you can fly your drone within 5.5 kilometres.
+If you become aware of manned aircraft nearby, you will have to manoeuvre away and land your drone as quickly and safely as possible.
+
+### FPV
+* You do not need CASA approval if you only intend to operate FPV indoors for recreational purposes.
+* Flying FPV outdoors is only permitted with CASA approval. This applies to both recreational and commercial drone users.
+* [Apply for CASA Recreational FPV approval](https://www.casa.gov.au/drones/rules/restricted-airspace-permissions-and-approvals-recreational-operators)
+* [Apply for EVLOS Extended Visual Line of Sight](https://www.casa.gov.au/drones/reoc/additional-approvals#visual-line-of-sight-civil-aviation-safety-regulations-101-073-)
+
+#### Applications
+* [Apply for Aviation Reference Number](https://www.casa.gov.au/licences-and-certification/individual-licensing/applying-aviation-reference-number-arn)
+* [Model Airflight Authorisation](https://www.casa.gov.au/files/model-aircraft-flight-authorisation-area-approval-formpdf)
+* [Airspace Risk Assessment Template](https://www.casa.gov.au/files/form-1589)
+* A map with an aerial view of the location, such as a screenshot from Google Earth or a diagram, displaying the required information
+* Participate in an interview and/or practical flight test, if required.
+</details>
+
+# Community
+[ Ardupilot ](https://discuss.ardupilot.org/)
+[ DIYDRONES ](https://diydrones.com/)
 
 # Hardware
-
 | Component | Device | Manufacturer | Manual | 
-| :---: | :---: | :---: | :---: |
 | Plane | X-UAV Mini Talon aircraft FPV | <a href="http://www.x-uav.cn/en/content/?465.html" target="_blank">`x-uav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/xuav-mini_talon.pdf">manual</a>| 
 | Motor | SunnySky X2212-III KV980 KV1250 KV1400 3-4S Long Shaft Outrunner Brushless Motor | <a href="https://sunnyskyusa.com/products/sunnsky-x2212" target="_blank">`SunnySky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/sunnysky-1400.pdf">manual</a> |
 | ESC | ZTW Mantis Slim 40A SBEC Brushless ESC Speed Controller | <a href="https://www.ztwoem.com/product/mantis-slim-series/" target="_blank">`mantis`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/ztw-mantis.pdf">manual</a> |
 | Propellor | | <a href="" target="_blank">``</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
 | Servo | Racerstar MG90S 9g Micro Metal Gear Analog Servo | <a href="http://m.racerstar.com/4pcs-racerstar-mg90s-9g-micro-metal-gear-analog-servo-for-450-rc-helicopter-rc-car-boat-robot-p-367.html" target="_blank">`Racerstar`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/servo-MG90S.pdf">manual</a> |
+| Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
+| Flight Controller | | | |
 | Flight Controller Carrier Board  | Pixhawk2.1 with ADS-B | <a href="https://docs.cubepilot.org/user-guides/carrier-boards/ads-b-carrier-board" target="_blank">`cubepilot`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/pixhawk2.pdf">manual</a> |
 | Flight Controller Sensors  |  Cube Orange | <a href="">`Cube Orange`</a> | |
-| Radio Transmittor | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/taranis-qx7.pdf">manual</a> |
-| Radio Reciever | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-crossfire.pdf">manual</a> |
-| Radio Reciever | FrSky X8R | <a href="https://www.frsky-rc.com/product/x8r/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/frsky-reciever-x8r.pdf">manual</a> |
-| Antenna - Reciever | TBS Crossfire Tuned Rx Antenna 2pc | <a href="https://www.team-blacksheep.com/products/prod:tuned_rx_antenna" target="_blank">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-crossfire.pdf">manual</a> |
-| Radio | 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit | <a href="https://droneshop.biz/product/915mhz-sik-radio-telemetry-bluetooth-adapter-500mw-complete-kit/?v=eedc0d4ce163" target="_blank">`droneshop`</a> |  <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
-| Radio Reciever | TBS Fusion | <a href="https://www.team-blacksheep.com/products/prod:tbs_fusion" target="_blank">`TBS`</a>  | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-fusion.pdf">manual</a> |
-| fpv goggles | ORQA FPV.ONE OLED FPV GOGGLES | <a href="https://orqafpv.com/" target="_blank">`orqafpv`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/orqa-fpvone-1.2.b.pdf">manual</a> |
-| Antenna - video | TBS Fusion VAS Antenna Pack | <a href="https://www.team-blacksheep.com/products/prod:fusion_vasant_pack" >`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
-| Video Transmittor | TBS Unify Pro32 HV (MMCX) | <a href="https://www.team-blacksheep.com/products/prod:unifypro32_hv">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-unify-5g8.pdf">manual</a> |
-| Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/">`runcam`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
-| Battery | URUAV 14.8V 10000mAh 30/60C 4S Lipo Battery XT90 | <a href="https://www.uruav.com/URUAV-14_8V-10000mAh-30-or-60C-4S-Lipo-Batteri-XT60-Plug-f-r-FPV-RC-Quadcopter-Jordbruk-Drone-p-224.html" target="_blank">`uruav`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf"></a> |
-| LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299">`benewake`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/benewake-TF02.pdf">manual</a> |
-| Radio Satellite | RockBLOCK 9603 | <a href="https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter">`ROCKBLOCK 19603`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rockblock-9603.pdf">manual</a> |
 | Companion | RPI Zero | <a href="https://www.raspberrypi.org/products/raspberry-pi-zero/">`RPI`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rpi-zero.pdf">`manual`</a> |
+| Sensors | | | 
+| LiDAR | Benewake TF02 PRO LiDAR Rangefinder (40m) | <a href="http://en.benewake.com/product/detail/5c345c9de5b3a844c4723299">`benewake`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/benewake-TF02.pdf">manual</a> |
+| Radio | | | |
+| Tx | FrSky ACCST Taranis Q X7 Transmitter 2.4G 16CH Mode 2 | <a href="https://www.frsky-rc.com/product/taranis-q-x7-2/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/taranis-qx7.pdf">manual</a> |
+| Rx | TBS Crossfire 8Ch Diversity Rx | <a href="https://www.team-blacksheep.com/products/prod:crossfire_8chrx" target="_blank">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-crossfire.pdf">manual</a> |
+| Rx | FrSky X8R | <a href="https://www.frsky-rc.com/product/x8r/" target="_blank">`FrSky`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/frsky-reciever-x8r.pdf">manual</a> |
+| Rx | TBS Fusion | <a href="https://www.team-blacksheep.com/products/prod:tbs_fusion" target="_blank">`TBS`</a>  | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-fusion.pdf">manual</a> |
+| Rx | 915Mhz SiK Radio Telemetry BlueTooth adapter 500mW complete kit | <a href="https://droneshop.biz/product/915mhz-sik-radio-telemetry-bluetooth-adapter-500mw-complete-kit/?v=eedc0d4ce163" target="_blank">`droneshop`</a> |  <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
+| Rx Sat | RockBLOCK 9603 | <a href="https://www.rock7.com/products/rockblock-9603-compact-plug-play-satellite-transmitter">`ROCKBLOCK 19603`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/rockblock-9603.pdf">manual</a> |
+| Rx_Antenna | TBS Fusion VAS Antenna Pack | <a href="https://www.team-blacksheep.com/products/prod:fusion_vasant_pack" >`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
+| Rx_Antenna | TBS Crossfire Tuned Rx Antenna 2pc | <a href="https://www.team-blacksheep.com/products/prod:tuned_rx_antenna" target="_blank">`TBS`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/tbs-crossfire.pdf">manual</a> |
+| FPV | | | |
+| fpv goggles | ORQA FPV.ONE OLED FPV GOGGLES | <a href="https://orqafpv.com/" target="_blank">`orqafpv`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/orqa-fpvone-1.2.b.pdf">manual</a> |
+| Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/">`runcam`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
+| OSD | MinimOSD | <a href="">`MinimOSD`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/minimosd.pdf"></a> |
 
 # Tools
 | Component | Device | Manual |
-| :---: | :---: | :---: |
 | Battery Charger | | |
 | Battery Tester | | |
 | RF meter | ImmersionRC RF Power Meter V2 | <a href="https://docs.google.com/document/d/1MHtkZg81mqF2xibuO7tHb-OH-l9ib3NImpGnRQWFtBo/edit">manual</a> |
@@ -43,7 +83,7 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 <details><summary>Hacks</summary>
 
 <details><summary>Taranis QX7 - CRSF MOD</summary>
-* [ TBS ]:  https://www.team-blacksheep.com/products/prod:qx7mod
+[ TBS ](https://www.team-blacksheep.com/products/prod:qx7mod)
 </details>
 </details>
 
@@ -51,7 +91,6 @@ I want to thank Lee Schofield of painless360 for his wealth of tutorials and gui
 The Cube Orange autopilot is the latest and most powerful model in the Cubepilot ecosystem.
 Designed for hobby users, commercial system integrators and UAS manufacturers the Cube Orange 
 autopilot is part of a wide ecosystem of autopilot modules and carrier boards. 
-
 
 ## Processor
 * 32bit ARM® STM32H743 Cortex®-M7（with DP-FPU）
@@ -213,6 +252,8 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 * [Build Instructions](https://github.com/ArduPilot/ardupilot/blob/master/BUILD.md)
 * [Radio Control Calibration](https://ardupilot.org/copter/docs/common-radio-control-calibration.html#common-radio-control-calibration)
 * [ESC Calibration](https://ardupilot.org/copter/docs/esc-calibration.html)
+* [WAF](https://waf.io/)
+* [WAF-book](https://waf.io/book/)
 
 ### Setup Docker
 ```sh
@@ -227,8 +268,8 @@ docker run --rm -it -v `pwd`:/ardupilot ardupilot:latest bash
 
 ### Build
 ```sh
-./waf configure --board CubeOrange
-./waf --all-tests plane
+./waf configure
+./waf 
 
 ./waf --targets bin/arduplane --upload
 ```
