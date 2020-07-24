@@ -74,7 +74,7 @@ If you become aware of manned aircraft nearby, you will have to manoeuvre away a
 | fpv goggles | ORQA FPV.ONE OLED FPV GOGGLES | <a href="https://orqafpv.com/" target="_blank">`orqafpv`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/orqa-fpvone-1.2.b.pdf">manual</a> |
 | Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/">`runcam`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
 | OSD | MinimOSD | <a href="">`MinimOSD`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/minimosd.pdf"></a> |
-
+| Fuse | TBS Smoke Stopper | <a href="">`tbs-smoke-stopper`</a> | | 
 # Tools
 | Component | Device | Manual |
 | --- | --- | --- |
@@ -256,6 +256,21 @@ ArduPilot enables the creation and use of trusted, autonomous, unmanned vehicle 
 * [ESC Calibration](https://ardupilot.org/copter/docs/esc-calibration.html)
 * [WAF](https://waf.io/)
 * [WAF-book](https://waf.io/book/)
+* [Submittion Guide](https://ardupilot.org/dev/docs/submitting-patches-back-to-master.html#submitting-patches-back-to-master)
+* [Style Guide](https://ardupilot.org/dev/docs/style-guide.html#style-guide)
+
+### Submission cs
+* Commit Message
+```sh
+Subsystem: brief description
+
+Longer description...
+```
+* Clean up your local commit history
+```sh
+git rebase -i "HEAD~10"
+```
+
 
 ### Setup Docker
 ```sh
