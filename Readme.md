@@ -75,15 +75,34 @@ If you become aware of manned aircraft nearby, you will have to manoeuvre away a
 | Cam | RunCam Phoenix 2 Joshua Edition CAM 1/2 CMOS f2.0 Super WD | <a href="https://shop.runcam.com/runcam-phoenix-2/">`runcam`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/.pdf">manual</a> |
 | OSD | MinimOSD | <a href="">`MinimOSD`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/minimosd.pdf"></a> |
 | Fuse | TBS Smoke Stopper | <a href="">`tbs-smoke-stopper`</a> | | 
+
+# Materials
+| Material | Function | Supplier | Spec |
+| --- | --- | --- |
+| d3o | Impact / Vibration | <a href="">`gamebreaker`</a> | <a href="https://github.com/shaun-lloyd/uav/blob/master/manual/"></a> |
+| carbonhinge | Control Surfaces | <a href="https://www.carbonhinge.com/">`carbonhinge`</a> | |
+| Stratocell Whisper | Form / Sound Proofing | <a href="">`tmp`</a> | |
+| Carbonfiber | Form / Strength | <a href=""></a> | |
+| Kevlar | Strength | <a href=""></a> | |
+
+# Plastics
+| Name | Name_Long | Function | Desc | Negatives |
+| --- | --- | --- | --- | --- |
+| ABS | Acrylonitrile Butadiene Styrene | all-round electrical enclosures | | exposed to sunlight for prolonged periods degrades | 
+| PMMA | Polymethyl Methacrylate Plexiglas | Infared transparent | Light transmission of up to 92 per cent. | britle |
+| ASA+PC Blend Acrylonitrile Styrene Acrylester and Polycarbonate | high temp / impact strength & chemical / weather & flame resitant UL 94 V-0 | ? | |
+| PA | Polyamide | tough, wear-resistant and has good sliding properties | absorb moisture | |
+| PC+ABS Blend | Polycarbonate + Acrylonitrile Butadiene Styrene | sub-zero temperatures / chemical resistance |
+
 # Tools
 | Component | Device | Manual |
 | --- | --- | --- |
 | Battery Charger | | |
 | Battery Tester | | |
+| CNC | <a href="https://synthetos.com/">`synthetos`</a> | |
 | RF meter | ImmersionRC RF Power Meter V2 | <a href="https://docs.google.com/document/d/1MHtkZg81mqF2xibuO7tHb-OH-l9ib3NImpGnRQWFtBo/edit">manual</a> |
 
 <details><summary>Hacks</summary>
-
 <details><summary>Taranis QX7 - CRSF MOD</summary>
 [ TBS ](https://www.team-blacksheep.com/products/prod:qx7mod)
 </details>
