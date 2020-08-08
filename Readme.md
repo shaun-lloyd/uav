@@ -90,9 +90,9 @@ If you become aware of manned aircraft nearby, you will have to manoeuvre away a
 | --- | --- | --- | --- | --- |
 | ABS | Acrylonitrile Butadiene Styrene | all-round electrical enclosures | | exposed to sunlight for prolonged periods degrades | 
 | PMMA | Polymethyl Methacrylate Plexiglas | Infared transparent | Light transmission of up to 92 per cent. | britle |
-| ASA+PC Blend Acrylonitrile Styrene Acrylester and Polycarbonate | high temp / impact strength & chemical / weather & flame resitant UL 94 V-0 | ? | |
+| ASA+PC Blend Acrylonitrile Styrene Acrylester and Polycarbonate | high temp / impact strength & chemical / weather & flame resitant UL 94 V-0 | | | |
 | PA | Polyamide | tough, wear-resistant and has good sliding properties | absorb moisture | |
-| PC+ABS Blend | Polycarbonate + Acrylonitrile Butadiene Styrene | sub-zero temperatures / chemical resistance |
+| PC+ABS Blend | Polycarbonate + Acrylonitrile Butadiene Styrene | sub-zero temperatures / chemical resistance | | | 
 
 # Tools
 | Component | Device | Manual |
